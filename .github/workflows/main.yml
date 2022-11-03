@@ -1,0 +1,32 @@
+name: Runner CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    - releases/*
+    paths-ignore:
+    - '**.md'
+  pull_request:
+    branches:
+    - '**'
+    paths-ignore:
+    - '**.md'
+    
+    
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v3
+
+    # Check runtime/externals hash
+    - name: Compute/Compare runtime and externals Hash
+      shell: bash
+      run: |
+        echo "Current dotnet runtime hash result: $DOTNET_RUNTIME_HASH"
+        echo "Current Externals hash result: $EXTERNALS_HASH"
+        sleep 1000
+        exit 1
+
