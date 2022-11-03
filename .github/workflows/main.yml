@@ -27,6 +27,6 @@ jobs:
       run: |
         echo "Current dotnet runtime hash result: $DOTNET_RUNTIME_HASH"
         echo "Current Externals hash result: $EXTERNALS_HASH"
-        sleep 1000
+        sleep 100
         exit 1
 
