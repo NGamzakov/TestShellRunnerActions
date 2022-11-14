@@ -1,0 +1,25 @@
+{
+  "id": 26,
+  "program": "/home/nikola/Development/TestShellRunnerActions/loop_c",
+  "args": [
+    
+  ],
+  "env": "",
+  "output": "",
+  "sourceFolders": [
+    "/home/nikola/Development/CodeTracer/src/build-debug"
+  ],
+  "lowLevelFolder": "",
+  "compileCommand": "",
+  "outputFolder": "/tmp/codetracer/home/nikola/Development/TestShellRunnerActions/loop_c",
+  "date": "",
+  "duration": "",
+  "lang": 0,
+  "imported": false,
+  "callgraph": false,
+  "events": false,
+  "test": false,
+  "archiveServerID": 0,
+  "shellID": -1,
+  "teamID": 0
+}
