@@ -22,5 +22,5 @@ jobs:
 
     - name: Build
       # Build your program with the given configuration
-      run: clang  ${{github.workspace}}/loop_c.
+      run: clang  ${{github.workspace}}/loop_c.c
 
